@@ -46,26 +46,32 @@ http://webdir.tistory.com/40
 
 ||선언 전 | 선언 후|
 |---|---|---|
-|height|최소 height가 화면 사이즈|최소 height가 컨텐츠 사이즈|
+|최소 height|화면 사이즈|컨텐츠 사이즈|
 |clientHeight|화면 사이즈|컨텐츠 사이즈|
 |offsetHeight|컨텐츠 사이즈<br/>(최소 화면 사이즈)|컨텐츠 사이즈|
-|scroll(Top/Left)| 예상값 | 0|
+|documentElement<br/>scroll(Top/Left)| 0 | 예상값|
+|body<br/>scroll(Top/Left)| 예상값 | 0|
 |height: 100%|화면 사이즈| 0|
 ---
 ## scroll (Top/Left)가 0인 경우
 * 왜 0일까요?
 	* html도 하나의 DOM이다.
-	* html, body 둘 다 컨텐츠 사이즈에 대해 유동적으로 같이 늘어난다.
+	* 선언 전에는 body의 사이즈가 고정되어 있지만
+	* 선언 후 body가 컨텐츠 사이즈에 대해 유동적으로 같이 늘어난다.
 
 ---
 ## scroll (Top/Left)가 0인 경우
 * 0이 아닌 정상적인 값이 나오려면?
-	* 정상적인 방법
-		* document.documentElement.scrollTop/Left를 쓴다.
-		documentElement는 ```html```이다.
-	* 정상적이지 않는 방법(쓰지는 말자)
-		* html에 height: 100%; overflow: hidden;
-    	body에 height: 100%; overflow: auto;를 쓰면 document.body.scrollTop을 쓸 수 있다.
+	* document.documentElement.scrollTop/Left를 쓴다.
+      documentElement는 ```html```이다.
+* 이상한 방법(쓰지는 말자)
+	* html에 height: 100%; overflow: hidden;
+	body에 height: 100%; overflow: auto;를 쓰면 document.body.scrollTop을 쓸 수 있다.
+        
+```js
+const scrollTop = document.body.scrollTop || 
+	document.documentElement.scrollTop;
+```
         
 ---
 
