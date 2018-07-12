@@ -89,3 +89,7 @@ https://codepen.io/daybrush/pen/WKbepm
 
 * 이동하면서 나타나고 이동하면서 사라지는 구름
 
+---
+## 복습 - 결과
+https://codepen.io/daybrush/pen/BPyBPM
+

@@ -1,13 +1,14 @@
 # CSS Animation 8
 * sally
-
 ---
 
 ## sally
 * 샐리를 그려봅시다.
 * https://codepen.io/daybrush/pen/ZjzOqq
+
+
 ---
-## sally - 바깥쪽 날개
+## sally - 바깥쪽(오른쪽) 날개
 * 인사를 하는 애니메이션
 * rotate를 사용
 * transform-origin 적절하게 사용

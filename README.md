@@ -1,15 +1,4 @@
-## 목차
-* 1주차 : position
-* 2추차 : display
-* 3주차 : 수직정렬
-* 4주차 : Circle 1
-* 5주차 : Circle 2
-* 6주차 : Circle 3
-* 7주차 : Triangle 1
-* 8주차 : Triangle 2
-* 9주차 : Rectangle 1
-* 10주차 : Rectangle 2
+## 스터디
+* CSS 스터디(CSS 80% JS 20%) (https://github.com/younkue/css/tree/master/CSS80JS20)
+* CSS 애니메이션 스터디 (https://github.com/younkue/css/tree/master/animation%20study)
 
-## CSS DEMO
-
-* [box-shadow button](https://codepen.io/daybrush/pen/QQeQRE)
