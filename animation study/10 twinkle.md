@@ -17,6 +17,10 @@ https://codepen.io/daybrush/pen/bjpJZN
 
 
 ---
+## 반짝이는 효과 - 답
+https://codepen.io/daybrush/pen/ZjOoaQ?editors=0110
+
+---
 ## 반짝이는 효과
 * 이게 뭐나요?
 	* 반짝이입니다.
@@ -24,6 +28,12 @@ https://codepen.io/daybrush/pen/bjpJZN
 
 
 https://codepen.io/daybrush/pen/yqOdNx
+
+
+---
+## 반짝이는 효과 - 답
+
+https://codepen.io/daybrush/pen/zLBjpo
 
 
 ---
