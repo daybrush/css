@@ -9,15 +9,16 @@
 ---
 ## 물방울 효과 순서
 * 원형이다.
-* 점점 커진다.
-* 잔상이 있다.
-* 점점 흐려진다.
-* 이러한 효과가 3겹으로 이루어져있다.
+* 점점 커진다. (scale)
+* 잔상이 있다. (border-width)
+* 점점 흐려진다. (opacity)
+* 이러한 효과가 3겹으로 이루어져있다.(animation-delay)
 
 ---
 ## 물방울 효과
 https://codepen.io/daybrush/pen/vRrbXG
 
+https://codepen.io/daybrush/pen/djMrER
 
 ---
 ## 물방울 효과
