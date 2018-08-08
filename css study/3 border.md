@@ -1,4 +1,4 @@
-# CSS 80% JS 20% 3
+# CSS STUDY 3
 * border
 * 사다리꼴 & 삼각형
 * 말풍선

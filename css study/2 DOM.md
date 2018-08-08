@@ -1,4 +1,4 @@
-# CSS 80% JS 20% 2
+# CSS STUDY2
 1. DOM
 
 

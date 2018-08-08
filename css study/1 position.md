@@ -1,4 +1,4 @@
-# CSS 80% JS 20% 1
+# CSS STUDY 1
 1. position
 
 ---

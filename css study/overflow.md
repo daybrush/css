@@ -1,4 +1,4 @@
-## CSS 80% JS 20%
+## CSS STUDY
 
 
 * overflow
